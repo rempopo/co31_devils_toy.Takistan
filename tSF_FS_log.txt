@@ -1,0 +1,12 @@
+"####### tSF File Sweeper Engaged #######" 
+Mission directory:     C:\Users\VonScheer\Documents\Arma 3\mpmissions\CO31_Devils_Toy_1_A1.Takistan\ 
+Mission fodler name:   CO31_Devils_Toy_1_A1 
+Removing tSF Helpers 
+Removing DynAI Helpers 
+Removing unused tSF Modules 
+    Folder is not used: Removing AirborneSupport 
+    Folder is not used: Removing Interactives 
+    Folder is not used: Removing InteractivesACE 
+    Folder is not used: Removing EditorVehicleCrew 
+    Folder is not used: Removing EditorRadioSettings 
+Done! 
