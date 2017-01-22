@@ -101,10 +101,16 @@ kit_tka_crew =
 	SAS
 */
 #define SAS_HEAD ["CUP_H_TKI_Pakol_1_01","CUP_H_PMC_Cap_PRR_Tan","TRYK_H_woolhat"]
+<<<<<<< HEAD
 #define SAS_UNI ["TRYK_U_B_BLKTAN","TRYK_U_pad_hood_Blk","TRYK_T_OD_PAD","TRYK_T_camo_3c","TRYK_U_Bts_PCUs"]
 kit_sas_pl =
 	[
 	["<EQUIPEMENT >>  ",SAS_UNI,"CUP_V_BAF_Osprey_Mk2_DDPM_Officer","tf_rt1523g_sage",SAS_HEAD,"CUP_TK_NeckScarf"],
+=======
+kit_sas_pl =
+	[
+	["<EQUIPEMENT >>  ","TRYK_U_B_BLKTAN","CUP_V_BAF_Osprey_Mk2_DDPM_Officer","tf_rt1523g_sage",SAS_HEAD,"CUP_TK_NeckScarf"],
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_d_grip3","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_RMR","rhsusf_acc_grip3"]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_JHP",["","","",""]],
@@ -115,6 +121,7 @@ kit_sas_pl =
 ];
 kit_sas_sl =
 	[
+<<<<<<< HEAD
 	["<EQUIPEMENT >>  ",SAS_UNI,"CUP_V_BAF_Osprey_Mk2_DDPM_Grenadier","tf_rt1523g_sage",SAS_HEAD,"CUP_TK_NeckScarf"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d10_m320","rhs_mag_30Rnd_556x45_Mk318_Stanag",["","rhsusf_acc_anpeq15_bk_h","rhsusf_acc_ACOG_RMR",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -122,10 +129,20 @@ kit_sas_sl =
 	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR","ACE_Vector"],
 	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]]],
 	["<VEST ITEMS >> ",[["rhs_mag_M441_HE",10],["30Rnd_556x45_Stanag",7],["SmokeShellBlue",1],["HandGrenade",2]]],
+=======
+	["<EQUIPEMENT >>  ","TRYK_U_B_BLKTAN","CUP_V_BAF_Osprey_Mk2_DDPM_Grenadier","tf_rt1523g_sage",SAS_HEAD,"CUP_TK_NeckScarf"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_m203s_d","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15side","rhsusf_acc_ACOG_RMR",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_JHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["SmokeShellGreen",1],["HandGrenade",3],["HANDGUN MAG",3],["SmokeShellBlue",1],["30Rnd_556x45_Stanag",7],["rhs_mag_M441_HE",3]]],
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_sas_gr =
 	[
+<<<<<<< HEAD
 	["<EQUIPEMENT >>  ",SAS_UNI,"CUP_V_BAF_Osprey_Mk2_DDPM_Grenadier","",SAS_HEAD,"CUP_TK_NeckScarf"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d10_m320","rhs_mag_30Rnd_556x45_Mk318_Stanag",["","rhsusf_acc_anpeq15_bk_light_h","rhsusf_acc_eotech_552",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -155,10 +172,42 @@ kit_sas_ar =
 	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"],
 	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
 	["<VEST ITEMS >> ",[["SmokeShellBlue",1],["HandGrenade",3],["rhsusf_100Rnd_556x45_soft_pouch",3]]],
+=======
+	["<EQUIPEMENT >>  ","CUP_U_B_BAF_DDPM_Tshirt","CUP_V_BAF_Osprey_Mk2_DDPM_Grenadier","B_Kitbag_cbr",SAS_HEAD,"CUP_TK_NeckScarf"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_m203s_d","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15side","rhsusf_acc_eotech_552_d",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["30Rnd_556x45_Stanag",8],["rhs_mag_M441_HE",7]]],
+	["<BACKPACK ITEMS >> ",[["rhs_mag_M441_HE",10]]]
+];
+kit_sas_ftl =
+	[
+	["<EQUIPEMENT >>  ","CUP_U_B_BAF_DDPM_Tshirt","CUP_V_BAF_Osprey_Mk2_DDPM_Grenadier","B_Kitbag_cbr",SAS_HEAD,"CUP_TK_NeckScarf"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_m203s_d","30Rnd_556x45_Stanag",["","rhsusf_acc_anpeq15side","rhsusf_acc_eotech_552_d",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["30Rnd_556x45_Stanag",8],["rhs_mag_M441_HE",7]]],
+	["<BACKPACK ITEMS >> ",[["rhs_mag_M441_HE",10]]]
+];
+kit_sas_ar =
+	[
+	["<EQUIPEMENT >>  ","CUP_U_B_BAF_DDPM_Tshirt","CUP_V_BAF_Osprey_Mk2_DDPM_Soldier2","B_Kitbag_cbr",SAS_HEAD,"CUP_FR_NeckScarf2"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip","rhs_200rnd_556x45_M_SAW",["","","rhsusf_acc_eotech_552",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["rhsusf_100Rnd_556x45_soft_pouch",3]]],
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 	["<BACKPACK ITEMS >> ",[["rhsusf_100Rnd_556x45_soft_pouch",1]]]
 ];
 kit_sas_r =
 	[
+<<<<<<< HEAD
 	["<EQUIPEMENT >>  ",SAS_UNI,"CUP_V_BAF_Osprey_Mk2_DDPM_Soldier2","CUP_B_Bergen_BAF",SAS_HEAD,"CUP_TK_NeckScarf"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d10_grip","rhs_mag_30Rnd_556x45_Mk318_Stanag",["","rhsusf_acc_M952V","rhsusf_acc_eotech_552","rhsusf_acc_grip1"]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
@@ -166,10 +215,20 @@ kit_sas_r =
 	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","NVGoggles_OPFOR"],
 	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
 	["<VEST ITEMS >> ",[["SmokeShellBlue",1],["HandGrenade",3],["30Rnd_556x45_Stanag",8]]],
+=======
+	["<EQUIPEMENT >>  ","CUP_U_B_BAF_DDPM_Tshirt","CUP_V_BAF_Osprey_Mk2_DDPM_Soldier2","B_Kitbag_cbr",SAS_HEAD,"rhs_scarf"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_d","30Rnd_556x45_Stanag",["","","rhsusf_acc_eotech_552_d",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["30Rnd_556x45_Stanag",8]]],
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 	["<BACKPACK ITEMS >> ",[["rhsusf_100Rnd_556x45_soft_pouch",3]]]
 ];
 kit_sas_mm =
 	[
+<<<<<<< HEAD
 	["<EQUIPEMENT >>  ",SAS_UNI,"CUP_V_I_RACS_Carrier_Vest_wdl_2","",SAS_HEAD,"rhs_scarf"],
 	["<PRIMARY WEAPON >>  ","rhs_weap_hk416d145","rhs_mag_30Rnd_556x45_Mk318_Stanag",["","","CUP_optic_Leupold_VX3","rhsusf_acc_harris_bipod"]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
@@ -272,5 +331,20 @@ kit_tribe_cargo = [
 	[],
 	[["rhs_rpg7_PG7V_mag",2],["rhs_rpg7_type69_airburst_mag",3],["rhs_100Rnd_762x54mmR",5],["rhs_30Rnd_545x39_AK",10],["rhs_10Rnd_762x54mmR_7N1",10],["rhs_mag_rgd5",5],["SmokeShell",5],["SmokeShellBlue",5],["rhs_VOG25",10]],
 	[["ACE_packingBandage",15],["ACE_fieldDressing",15],["ACE_elasticBandage",15],["ACE_quikclot",10],["ACE_morphine",5]],
+=======
+	["<EQUIPEMENT >>  ","CUP_U_B_BAF_DDPM_Tshirt","CUP_V_BAF_Osprey_Mk2_DDPM_Soldier2","B_Kitbag_cbr",SAS_HEAD,"rhs_scarf"],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_d","30Rnd_556x45_Stanag",["","","rhsusf_acc_ACOG_RMR",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["30Rnd_556x45_Stanag",8]]],
+	["<BACKPACK ITEMS >> ",[["rhsusf_100Rnd_556x45_soft_pouch",3]]]
+];
+kit_sas_cargo = [
+	[],
+	[["30Rnd_556x45_Stanag",10],["HandGrenade",5],["SmokeShellBlue",5],["rhs_mag_M441_HE",10]],
+	[["ACE_fieldDressing",15],["ACE_packingBandage",15]],
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 	[]
 ];

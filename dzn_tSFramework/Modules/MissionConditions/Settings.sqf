@@ -40,6 +40,11 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // If you're Lim~, then you may need this. Uncomment to use.
 // if (isNil "ts_tasks") then { ts_tasks = 0 };
 
+<<<<<<< HEAD
 MissionCondition1 = [ "WIN", "!alive TGT1 && !alive TGT2 && MVP inArea baseTrg", "TGT destroyed, PLTLDR retreated" ];
 MissionCondition2 = [ "WIPED", "{alive _x} count (call BIS_fnc_listPlayers) < 1 && !alive MVP", "All killed", 30 ];
 MissionCondition3 = [ "FAIL", "alive TGT1 && alive TGT2 && MVP inArea baseTrg", "Platoon retreated, TGT not destroyed" ];
+=======
+MissionCondition1 = [ "WIN", "false", "All objectives done" ];
+MissionCondition2 = [ "WIPED", "{alive _x} count (call BIS_fnc_listPlayers) < 1", "All dead", 30 ];
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef

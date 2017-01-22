@@ -21,13 +21,21 @@ tSF_module_Briefing = true;
 tSF_module_tSNotes = true;
 tSF_module_tSNotesSettings = true;
 
+<<<<<<< HEAD
 tSF_module_CCP = true;
+=======
+tSF_module_CCP = false;
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 tSF_module_Interactives = false;
 tSF_module_InteractivesACE = false;
 tSF_module_AirborneSupport = false;
 
 tSF_module_EditorVehicleCrew = false;
+<<<<<<< HEAD
 tSF_module_EditorUnitBehavior = true;
+=======
+tSF_module_EditorUnitBehavior = false;
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 tSF_module_EditorRadioSettings = false;
 
 tSF_module_tSAdminTools = true;

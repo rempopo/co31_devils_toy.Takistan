@@ -17,6 +17,7 @@ A "Grenadier"				TO "kit_sas_gr"	 KIT,
 A "Rifleman"				TO "kit_sas_r"	 KIT,
 A "Marksman"				TO "kit_sas_mm"	 KIT,
 A "1'6 Platoon Leader"		TO "kit_sas_pl" 	KIT,
+<<<<<<< HEAD
 A "Platoon Sergeant"			TO "kit_sas_sl"	KIT,
 A "1'2 Командир отделения"		TO "kit_tribe_sl"	 KIT,
 A "1'3 Командир отделения"		TO "kit_tribe_sl"	 KIT,
@@ -27,3 +28,6 @@ A "Стрелок, помощник гранатометчика"	TO "kit_tribe_
 A "BLUE - Старший стрелок"		TO "kit_tribe_ss"	 KIT,
 A "Стрелок"			TO "kit_tribe_r"	 KIT,
 A "Снайпер"				TO "kit_tribe_mm"	 KIT
+=======
+A "Platoon Sergeant"			TO "kit_sas_sl"	KIT
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef

@@ -24,6 +24,7 @@ if (!isNil "dzn_fnc_setWeather") then {
 	  ("par_weather" call BIS_fnc_getParamValue) spawn dzn_fnc_setWeather;
 };
 
+<<<<<<< HEAD
 [] spawn {
 	waitUntil { !isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
 	waitUntil { !isNil "assault_start"};
@@ -41,3 +42,5 @@ if (!isNil "dzn_fnc_setWeather") then {
 [] spawn {
 	TGT2 = nearestObject [TankDetector2, "Land_Ind_TankBig"]
 };
+=======
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef

@@ -1,7 +1,11 @@
 tSF_CCP_TimeToHeal			= 30;		// Timeout before healed
 tSF_CCP_TimeToHold			= 60;		// Timeout before finishing MediCare cycle
 
+<<<<<<< HEAD
 tSF_CCP_Composition			= "Civil LandRover";	// Name of default composition; See 'DefaultCompositions.sqf' for names
+=======
+tSF_CCP_Composition			= "Civil SUV";	// Name of default composition; See 'DefaultCompositions.sqf' for names
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 
 // Texts
 tSF_CCP_STR_NotAllowedText		= "This area is not secured to deploy CCP there. Choose different location.";

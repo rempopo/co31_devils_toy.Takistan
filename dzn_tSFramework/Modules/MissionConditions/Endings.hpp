@@ -1,4 +1,5 @@
 class CfgDebriefing
+<<<<<<< HEAD
 {
 	class WIN
 	{
@@ -19,3 +20,19 @@ class CfgDebriefing
 		description = "";
 	};
 };
+=======
+{  
+    class WIN
+    {
+        title = "Задание выполнено";
+        subtitle = "Успех!";
+        description = "Задача выполнена";
+    };                  
+    class WIPED
+    {
+        title = "Задание провалено";
+        subtitle = "Все погибли!";
+        description = "Такие дела...";
+    };
+};
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef

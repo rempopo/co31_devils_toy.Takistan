@@ -6,7 +6,11 @@
     /* Groups: */
     [
         [
+<<<<<<< HEAD
             5, /* Groups quantity */
+=======
+            6, /* Groups quantity */
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
             /* Units */
             [
                 ["O_Soldier_F", [], "kit_tka_random"]
@@ -24,7 +28,11 @@
     /* Groups: */
     [
         [
+<<<<<<< HEAD
             3, /* Groups quantity */
+=======
+            4, /* Groups quantity */
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
             /* Units */
             [
                 ["O_Soldier_F", [], "kit_tka_random"]
@@ -84,6 +92,7 @@
     ],
     /* Behavior: Speed, Behavior, Combat mode, Formation */
     ["LIMITED","SAFE","YELLOW","WEDGE"]
+<<<<<<< HEAD
 ]
 ,
 [
@@ -126,3 +135,6 @@
     /* Behavior: Speed, Behavior, Combat mode, Formation */
     ["NORMAL","AWARE","RED","WEDGE"]
 ]
+=======
+]
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef

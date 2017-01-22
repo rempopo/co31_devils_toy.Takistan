@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+//hello bober
+>>>>>>> b76086ca9543d8bf833bef392e69f583768905ef
 
 // dzn Gear
   // set true to engage Edit mode
